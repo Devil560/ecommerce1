@@ -1,6 +1,6 @@
 <?php
 
-require("includes/common.php");
+require("common.php");
 
 $email = $_POST['email'];
 $email = mysqli_real_escape_string($con, $email);
