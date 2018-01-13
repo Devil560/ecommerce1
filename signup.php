@@ -8,7 +8,7 @@ if (isset($_SESSION['email'])) {
 <html lang="en">
     <head>
         <link rel="icon" href="img/commerce.ico">
-        <title>Success|Lifestyle Store</title>
+        <title>Signup|Lifestyle Store</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
