@@ -1,5 +1,5 @@
 <?php
-require("includes/common.php");
+require("common.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,8 @@ require("includes/common.php");
 
     <body>
         <?php
-        include 'includes/header.php';
-        include 'includes/check-if-added.php';
+        include 'header.php';
+        include 'check-if-added.php';
         ?>
 
            <div class="container">
@@ -351,7 +351,7 @@ if (isset($_SESSION['email'])) {
             <hr>
         </div>
 
-        <?php include("includes/footer.php"); ?>
+        <?php include("footer.php"); ?>
     </body>
 
 </html>
