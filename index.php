@@ -96,7 +96,7 @@ if (isset($_SESSION['email'])) {
         
         <!--Footer-->
         <?php
-        include 'includes/footer.php';
+        include 'footer.php';
         ?>
         <!--Footer end-->
    
