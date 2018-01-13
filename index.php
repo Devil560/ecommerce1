@@ -10,16 +10,22 @@ if (isset($_SESSION['email'])) {
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Welcome | Life Style Store</title>
-        <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link href="css/style.css" rel="stylesheet">
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+       <link rel="icon" href="img/commerce.ico">
+        <title>Lifestyle Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <link href="indexf.css" rel="stylesheet" type="text/css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
     </head>
     <body style="padding-top: 50px;">
         <!-- Header -->
