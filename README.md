@@ -9,6 +9,7 @@ _____________________________________________Folder Structure___________________
 	
 	project_solution/
 	├── css/ (contains all the css files)
+	By default i have used cdn.
 	│    ├── bootstrap.css
 	│    ├── bootstrap.min.css
 	│    └── index.css
@@ -19,15 +20,16 @@ _____________________________________________Folder Structure___________________
 	│    ├── glyphicons-halflings-regular.woff
 	│    └── glyphicons-halflings-regular.woff2
 	├── js/ (contains Bootstrap Js files.)
+	By default i have used cdn.
 	│    ├── bootstrap.js
 	│    └── bootstrap.min.js
 	├──  img/
 	│    └── (contains all images required for developing the website)
-	├──  includes/	 
-	│    ├── check-if-added.php
-	│    ├── common.php
-	│    ├── footer.php
-	│    └── header.php
+ 
+        ├── check-if-added.php
+        ├── common.php
+        ├── footer.php
+        └── header.php
 	├──  cart-add.php
 	├──  cart-remove.php
 	├──  cart.php 
