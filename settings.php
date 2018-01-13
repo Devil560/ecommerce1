@@ -1,5 +1,5 @@
 <?php
-require_once("includes/common.php");
+require_once("common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -16,7 +16,7 @@ if (!isset($_SESSION['email'])) {
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <?php include 'includes/header.php'; ?>
+        <?php include 'header.php'; ?>
         <div class="container-fluid" id="content">
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4" id="settings-container">
@@ -39,6 +39,6 @@ if (!isset($_SESSION['email'])) {
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php"); ?>
+        <?php include("footer.php"); ?>
     </body>
 </html>
