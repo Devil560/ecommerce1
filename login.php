@@ -1,6 +1,6 @@
 <?php
 //require("includes/common.php");
-require_once("includes/common.php");
+require_once("common.php");
 // Redirects the user to products page if logged in.
 if (isset($_SESSION['email'])) {
     header('location: products.php');
@@ -21,7 +21,7 @@ if (isset($_SESSION['email'])) {
     </head>
 
     <body>
-        <?php include 'includes/header.php'; ?>
+        <?php include 'header.php'; ?>
         <div id="content">
             <div class="container-fluid decor_bg" id="login-panel">
                 <div class="row">
@@ -50,6 +50,6 @@ if (isset($_SESSION['email'])) {
             </div>
         </div>
 
-        <?php include 'includes/footer.php'; ?>
+        <?php include 'footer.php'; ?>
     </body>
 </html>
