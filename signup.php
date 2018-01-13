@@ -1,5 +1,5 @@
 <?php
-require("includes/common.php");
+require("common.php");
 if (isset($_SESSION['email'])) {
     header('location: products.php');
 }
@@ -15,7 +15,7 @@ if (isset($_SESSION['email'])) {
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <?php include 'includes/header.php'; ?>
+        <?php include 'header.php'; ?>
         <div class="container-fluid decor_bg" id="content">
             <div class="row">
                 <div class="container">
@@ -46,6 +46,6 @@ if (isset($_SESSION['email'])) {
                 </div>
             </div>
         </div>
-        <?php include "includes/footer.php"; ?>
+        <?php include "footer.php"; ?>
     </body>
 </html>
