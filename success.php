@@ -1,6 +1,6 @@
 <?php
 
-require("includes/common.php");
+require("common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -16,10 +16,22 @@ mysqli_query($con, $query) or die(mysqli_error($con));
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width = device-width, initial-scale = 1">
-        <title>Success | Life Style Store</title>
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+         <link rel="icon" href="img/commerce.ico">
+        <title>Success|Lifestyle Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
     </head>
     <body>
         <?php include 'includes/header.php'; ?>
