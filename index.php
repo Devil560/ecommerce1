@@ -18,7 +18,7 @@ if (isset($_SESSION['email'])) {
           <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-        <link href="indexf.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -30,7 +30,7 @@ if (isset($_SESSION['email'])) {
     <body style="padding-top: 50px;">
         <!-- Header -->
         <?php
-        include 'includes/header.php';
+        include 'header.php';
         ?>
         <!--Header end-->
 
