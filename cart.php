@@ -1,5 +1,5 @@
 <?php
-require("includes/common.php");
+require("common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -16,7 +16,7 @@ if (!isset($_SESSION['email'])) {
     </head>
     <body>
         <div class="container-fluid" id="content">
-            <?php include 'includes/header.php'; ?>
+            <?php include 'header.php'; ?>
             <div class="row decor_bg">
                 <div class="col-md-6 col-md-offset-3">
                     <table class="table table-striped">
@@ -61,6 +61,6 @@ if (!isset($_SESSION['email'])) {
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php"); ?>
+        <?php include("footer.php"); ?>
     </body>
 </html>
